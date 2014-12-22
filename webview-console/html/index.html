@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+    <script type="text/javascript">
+        function testDummyError() {
+            var invalid = null;
+            invalid.call();
+        }
+        function outputConsole() {
+            console.log("ログ出力したいんですよ・・・")
+        }
+    </script>
+</head>
+<body>
+    <h1>タブレットのテスト</h1>
+    <p>
+        <input type="button" onClick="testDummyError()" value="わざとエラーを起こすようなJavaScriptコード実行"/>
+    </p>
+    <p>
+        <input type="button" onClick="outputConsole()" value="コンソール出力"/>
+    </p>
+</body>
+</html>
